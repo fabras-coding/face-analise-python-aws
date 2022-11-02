@@ -33,7 +33,11 @@ Configure o Trigger na Lambda para que sempre que cair um arquivo no bucket de i
 **O código "main.py" só precisa ser executado uma vez. Da sua máquina local**
 **O código que deverá subir na Lambda é o faceanalise.py**
 
-**Lembre-se de transformar o bucket onde está a pasta "fa-site" em um host de site estático (isso é feito na última opção dentro de "Properties")
+**Lembre-se de transformar o bucket onde está a pasta "fa-site" em um host de site estático (isso é feito na última opção dentro de "Properties")**
 
-Desenho do projeto
+
 ![image](https://user-images.githubusercontent.com/34045906/199373607-b9942fa9-92f0-48ff-a9a4-c41b251d70a9.png)
+
+Pode ser que a lambda apresente erro na hora de executar. Muito provavelmente será falta de acesso as buckets e ao rekognition. Então, vá até o IAM, pesquisa por Lambda e sete as roles ou o grupo "Full Access" do S3 e do Rekognition para que tudo funcione.
+
+***Lembre-se de apagar tudo depois =)*** 
