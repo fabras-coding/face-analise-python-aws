@@ -28,7 +28,7 @@ Ter dois buckets criados. Um para hospedar o site estático e outro para as imag
 
 Configure o Trigger na Lambda para que sempre que cair um arquivo no bucket de imagens com o nome que você configurou no python (no meu caso "_analise.png"), seja disparada a função. A configuração default do Lambda já atende a necessidade do projeto. 
 
-**A função lambda precisa ser criada com a versãom 3.7 do python**
+**A função lambda precisa ser criada com a versão 3.7 do python**
 
 **O código "main.py" só precisa ser executado uma vez. Da sua máquina local**
 **O código que deverá subir na Lambda é o faceanalise.py**
