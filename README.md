@@ -39,6 +39,6 @@ Configure o Trigger na Lambda para que sempre que cair um arquivo no bucket de i
 
 ![image](https://user-images.githubusercontent.com/34045906/199373607-b9942fa9-92f0-48ff-a9a4-c41b251d70a9.png)
 
-Pode ser que a lambda apresente erro na hora de executar. Muito provavelmente será falta de acesso as buckets e ao rekognition. Então, vá até o IAM, pesquisa por Lambda e sete as roles ou o grupo "Full Access" do S3 e do Rekognition para que tudo funcione.
+Pode ser que a lambda apresente erro na hora de executar. Muito provavelmente será falta de acesso as buckets e ao rekognition. Então, vá até o IAM, pesquise por Lambda e sete as roles ou o grupo "Full Access" do S3 e do Rekognition para que tudo funcione!
 
 ***Lembre-se de apagar tudo depois =)*** 
