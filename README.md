@@ -31,6 +31,7 @@ Configure o Trigger na Lambda para que sempre que cair um arquivo no bucket de i
 **A função lambda precisa ser criada com a versão 3.7 do python**
 
 **O código "main.py" só precisa ser executado uma vez. Da sua máquina local**
+
 **O código que deverá subir na Lambda é o faceanalise.py**
 
 **Lembre-se de transformar o bucket onde está a pasta "fa-site" em um host de site estático (isso é feito na última opção dentro de "Properties")**
