@@ -1,5 +1,5 @@
 # face-analise-python-aws
-Projeto de Estudo de Lambda e S3 - Utilizando serviço Rekognition com Python para análise de faces humanas.
+Projeto de Estudo de Lambda e S3 - Utilizando serviço Rekognition da AWS com Python para análise de faces humanas.
 
 ## Pré Reqs e Passos
 
